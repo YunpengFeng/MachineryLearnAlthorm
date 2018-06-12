@@ -78,4 +78,4 @@ def Linear():
 if __name__ == "__main__":
     # drawing2D()
     # drawing3D()
-    Linear()十点多
+    Linear()
