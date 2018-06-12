@@ -1,5 +1,5 @@
 """
-回归和画图
+回归和画图11
 1、线性关系 y = kx + b
 """
 import matplotlib.pyplot as plt
