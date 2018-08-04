@@ -9,7 +9,7 @@ import numpy as np
 
 def ChineseVector():
     # 中文分词
-    c1 = jieba.cut("初次使用pycharm 的interpreter option为空解决办法")
+    c1 = jieba.cut("初次使用pycharm111111111 的interpreter option为空解决办法")
     c2 = jieba.cut("这里我们说明pycharm中正确的项目删除方式 ")
     c3 = jieba.cut("与其他语言的IDE相比项目删除起来比较困难")
     print(type(c1))

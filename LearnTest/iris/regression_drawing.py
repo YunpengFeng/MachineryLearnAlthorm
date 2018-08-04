@@ -42,7 +42,7 @@ from sklearn.metrics import  mean_absolute_error as err
 def Linear():
     # 获取数据
     lb = load_boston()
-    # 分割数据
+    # 分割数据---将数据分割成为“训练集”和“测试集”  返回结果 （训练集、测试集的特征值）,(训练集、测试集的目标值)
     x_train, x_test, y_train, y_test = tts(lb.data, lb.target, test_size=0.25)
     # print(y_train, 'weqw\n', y_test)
     # 标准化处理(特征值和目标值都要标准化处理) 要实例化2个的api
